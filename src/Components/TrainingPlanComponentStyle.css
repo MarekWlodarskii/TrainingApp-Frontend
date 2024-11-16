@@ -1,0 +1,35 @@
+.TrainingDayContainer{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    width: 60%;
+    min-width: 500px;
+    height: 50vh;
+    min-height: 300px;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    justify-content: flex-start;
+    background-color: #393e46;
+}
+.ExerciseContainer{
+    width: 100%;
+    min-height: 20%;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.ExerciseData{
+    flex: 1;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+}
+.TrainingDayContainer::-webkit-scrollbar {
+    display: none;
+  }

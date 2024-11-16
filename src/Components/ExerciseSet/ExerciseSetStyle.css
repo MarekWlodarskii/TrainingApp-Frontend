@@ -1,0 +1,65 @@
+.ExerciseContainer{
+    width: 100%;
+    min-height: 20%;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.ExerciseData{
+    flex: 1;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    display: flex;
+}
+.ExerciseName{
+    flex: 1;
+    text-decoration: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+    color: white;
+    width: 1px;
+    max-width: 70%;
+}
+.ExerciseName:focus{
+    text-decoration: none;
+    background: none;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: none;
+}
+.ExerciseButton{
+    text-decoration: none;
+    background: #f96d00;
+    border: 1px solid black;
+    border-radius: 30%;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    min-width: 20px;
+    min-height: 20px;
+    width: 10%;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+}
+.ExerciseButton:hover{
+    background-color: #d85f00;
+}
+.ExerciseInputArea{
+    text-align: left;
+    -ms-overflow-style: none;
+    overflow-y: none;
+    resize: none;
+}
+.ExerciseInputArea::-webkit-scrollbar {
+    display: none;
+  }

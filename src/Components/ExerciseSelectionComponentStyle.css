@@ -1,0 +1,46 @@
+.ExerciseSelectionComponentContainer{
+    align-items: center;
+    width: 100%;
+}
+.ExerciseSelectionContainer{
+    min-width: 500px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.ExerciseSelectionButton, .ExerciseSelectedName{
+    color: #f2f2f2;
+    background-color: #f96d00;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-size: max(1.5em, 12px);
+}
+.ExerciseSelectionButton{
+    text-decoration: none;
+    cursor: pointer;
+}
+.ExerciseSelectedName{
+    display: flex;
+}
+.ExerciseSelectionButton:hover{
+    background-color: #d85f00;
+}
+.ExerciseSelectionInput{
+    color: black;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-size: max(1.2em, 10px);
+}
+.ExerciseSelectionInput:focus{
+    outline: none;
+    box-shadow: none;
+}
